@@ -1,0 +1,20 @@
+# vim: ft=colortemplate fdm=marker noet ts=8 tw=78
+
+documentation
+==============================================================================
+@fullname colorscheme					*@shortname*
+
+DOCUMENT YOUR COLORSCHEME'S OPTIONS HERE, IF ANY, AND REMOVE THIS LINE.
+
+						*g:@optionprefix_transp_bg*
+Set to 1 if you want a transparent background. Takes effect only in the
+terminal.
+https://github.com/lifepillar/vim-colortemplate
+https://github.com/jolaleye/horizon-theme-vscode/blob/master/themes/horizon.json
+https://marketplace.visualstudio.com/items?itemName=jolaleye.horizon-theme-vscode
+https://github.com/nightsense/snow/blob/master/templates/snow.colortemplate
+>
+	let g:@optionprefix_transp_bg = 0
+<
+enddocumentation
+
