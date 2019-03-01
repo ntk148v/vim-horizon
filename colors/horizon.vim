@@ -4,7 +4,7 @@
 " Maintainer:   Kien Nguyen-Tuan <kienn2609@gmail.com>
 " Website:      https://ntk148v.github.io/blog
 " License:      Vim License (see `:help license`)
-" Last Updated: Thứ sáu, 01 Tháng 3 Năm 2019 15:32:15 +07
+" Last Updated: Thứ sáu, 01 Tháng 3 Năm 2019 16:01:41 +07
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running')
       \ && (!exists('&t_Co') || &t_Co < 256)
@@ -114,130 +114,148 @@ hi! link lCursor Cursor
 hi CursorIM ctermfg=NONE ctermbg=fg guifg=NONE guibg=fg guisp=NONE cterm=NONE gui=NONE
 hi ToolbarLine ctermfg=NONE ctermbg=234 guifg=NONE guibg=#1c1e26 guisp=NONE cterm=NONE gui=NONE
 hi ToolbarButton ctermfg=236 ctermbg=234 guifg=#2e303e guibg=#1c1e26 guisp=NONE cterm=NONE,bold gui=NONE,bold
-let g:terminal_ansi_colors = [
-      \ '#1c1e26',
-      \ '#e85678',
-      \ '#29d398',
-      \ '#fab795',
-      \ '#26bbd9',
-      \ '#ee64ac',
-      \ '#59e1e3',
-      \ '#2e303e',
-      \ '#232530',
-      \ '#ec6a88',
-      \ '#3fdaa4',
-      \ '#fab795',
-      \ '#3fc4de',
-      \ '#f075b5',
-      \ '#6be4e6',
-      \ '#d5d8da'
-      \ ]
-finish
+if has("nvim")
+  let g:terminal_color_0  = "#1c1e26"
+  let g:terminal_color_1  = "#e85678"
+  let g:terminal_color_2  = "#29d398"
+  let g:terminal_color_3  = "#fab795"
+  let g:terminal_color_4  = "#26bbd9"
+  let g:terminal_color_5  = "#ee64ac"
+  let g:terminal_color_6  = "#59e1e3"
+  let g:terminal_color_7  = "#2e303e"
+  let g:terminal_color_8  = "#232530"
+  let g:terminal_color_9  = "#ec6a88"
+  let g:terminal_color_10 = "#3fdaa4"
+  let g:terminal_color_11 = "#fab795"
+  let g:terminal_color_12 = "#3fc4de"
+  let g:terminal_color_13 = "#f075b5"
+  let g:terminal_color_14 = "#6be4e6"
+  let g:terminal_color_15 = "#d5d8da"
+elseif has("terminal")
+  let g:terminal_ansi_colors = [
+        \ '#1c1e26',
+        \ '#e85678',
+        \ '#29d398',
+        \ '#fab795',
+        \ '#26bbd9',
+        \ '#ee64ac',
+        \ '#59e1e3',
+        \ '#2e303e',
+        \ '#232530',
+        \ '#ec6a88',
+        \ '#3fdaa4',
+        \ '#fab795',
+        \ '#3fc4de',
+        \ '#f075b5',
+        \ '#6be4e6',
+        \ '#d5d8da'
+        \ ]
+  finish
 
-" Background: dark
-" Color: black                #1c1e26                ~        Black
-" Color: white                #2e303e                ~        LightGrey
-" Color: blue                 #26bbd9                ~        DarkBlue
-" Color: cyan                 #59e1e3                ~        DarkCyan
-" Color: green                #29d398                ~        DarkGreen
-" Color: magenta              #ee64ac                ~        DarkMagenta
-" Color: red                  #e85678                ~        DarkRed
-" Color: yellow               #fab795                ~        DarkYellow
-" Color: brightblue           #3fc4de                ~        LightBlue
-" Color: brightcyan           #6be4e6                ~        LightCyan
-" Color: brightgreen          #3fdaa4                ~        LightGreen
-" Color: brightmagenta        #f075b5                ~        LightMagenta
-" Color: brightred            #ec6a88                ~        LightRed
-" Color: brightyellow         #fab795                ~        LightYellow
-" Color: brightblack          #232530                ~        DarkGrey
-" Color: brightwhite          #d5d8da                ~        LightGrey
-"     Normal           white             none
-"     Terminal         white             none
-"     Normal           white             black
-"     Terminal         white             black
-" ColorColumn          fg                black
-" Conceal              none              none
-" Cursor               white             black
-" CursorColumn         white             black
-" CursorLine           white             black
-" CursorLineNr         white             black
-" DiffAdd              white             black             reverse
-" DiffChange           white             black             reverse
-" DiffDelete           white             black             reverse
-" DiffText             white             black             bold,reverse
-" Directory            white             black
-" EndOfBuffer          white             black
-" ErrorMsg             white             black             reverse
-" FoldColumn           white             black
-" Folded               white             black             italic
-" IncSearch            white             black             t=reverse g=standout
-" LineNr               white             black
-" MatchParen           white             black
-" ModeMsg              white             black
-" MoreMsg              white             black
-" NonText              white             black
-" Pmenu                white             black
-" PmenuSbar            white             black
-" PmenuSel             white             black
-" PmenuThumb           white             black
-" Question             white             black
-" QuickFixLine     ->  Search
-" Search               white             black
-" SignColumn           white             black
-" SpecialKey           white             black
-" SpellBad             white             black             s=red
-" SpellCap             white             black             s=blue
-" SpellLocal           white             black             s=magenta
-" SpellRare            white             black             s=cyan reverse
-" StatusLine           white             black
-" StatusLineNC         white             black
-" StatusLineTerm    -> StatusLine
-" StatusLineTermNC  -> StatusLineNC
-" TabLine              white             black
-" TabLineFill          white             black
-" TabLineSel           white             black
-" Title                white             black
-" VertSplit            white             black
-" Visual               white             black
-" VisualNOS            white             black
-" WarningMsg           white             black
-" WildMenu             white             black
-" Boolean           -> Constant
-" Character         -> Constant
-" Comment              white             none
-" Conditional       -> Statement
-" Constant             white             none
-" Define            -> PreProc
-" Debug             -> Special
-" Delimiter         -> Special
-" Error                white             black             reverse
-" Exception         -> Statement
-" Float             -> Constant
-" Function          -> Identifier
-" Identifier           white             none
-" Ignore               white             none
-" Include           -> PreProc
-" Keyword           -> Statement
-" Label             -> Statement
-" Macro             -> PreProc
-" Number            -> Constant
-" Operator          -> Statement
-" PreCondit         -> PreProc
-" PreProc              white             none
-" Repeat            -> Statement
-" Special              white             none
-" SpecialChar       -> Special
-" SpecialComment    -> Special
-" Statement            white             none
-" StorageClass      -> Type
-" String            -> Constant
-" Structure         -> Type
-" Tag               -> Special
-" Todo                 white             none
-" Type                 white             none
-" Typedef           -> Type
-" Underlined           white             none
-" lCursor           -> Cursor
-" CursorIM             none              fg
-" ToolbarLine          none              black
-" ToolbarButton        white             black             bold
+  " Background: dark
+  " Color: black                #1c1e26                ~        Black
+  " Color: white                #2e303e                ~        LightGrey
+  " Color: blue                 #26bbd9                ~        DarkBlue
+  " Color: cyan                 #59e1e3                ~        DarkCyan
+  " Color: green                #29d398                ~        DarkGreen
+  " Color: magenta              #ee64ac                ~        DarkMagenta
+  " Color: red                  #e85678                ~        DarkRed
+  " Color: yellow               #fab795                ~        DarkYellow
+  " Color: brightblue           #3fc4de                ~        LightBlue
+  " Color: brightcyan           #6be4e6                ~        LightCyan
+  " Color: brightgreen          #3fdaa4                ~        LightGreen
+  " Color: brightmagenta        #f075b5                ~        LightMagenta
+  " Color: brightred            #ec6a88                ~        LightRed
+  " Color: brightyellow         #fab795                ~        LightYellow
+  " Color: brightblack          #232530                ~        DarkGrey
+  " Color: brightwhite          #d5d8da                ~        LightGrey
+  "     Normal           white             none
+  "     Terminal         white             none
+  "     Normal           white             black
+  "     Terminal         white             black
+  " ColorColumn          fg                black
+  " Conceal              none              none
+  " Cursor               white             black
+  " CursorColumn         white             black
+  " CursorLine           white             black
+  " CursorLineNr         white             black
+  " DiffAdd              white             black             reverse
+  " DiffChange           white             black             reverse
+  " DiffDelete           white             black             reverse
+  " DiffText             white             black             bold,reverse
+  " Directory            white             black
+  " EndOfBuffer          white             black
+  " ErrorMsg             white             black             reverse
+  " FoldColumn           white             black
+  " Folded               white             black             italic
+  " IncSearch            white             black             t=reverse g=standout
+  " LineNr               white             black
+  " MatchParen           white             black
+  " ModeMsg              white             black
+  " MoreMsg              white             black
+  " NonText              white             black
+  " Pmenu                white             black
+  " PmenuSbar            white             black
+  " PmenuSel             white             black
+  " PmenuThumb           white             black
+  " Question             white             black
+  " QuickFixLine     ->  Search
+  " Search               white             black
+  " SignColumn           white             black
+  " SpecialKey           white             black
+  " SpellBad             white             black             s=red
+  " SpellCap             white             black             s=blue
+  " SpellLocal           white             black             s=magenta
+  " SpellRare            white             black             s=cyan reverse
+  " StatusLine           white             black
+  " StatusLineNC         white             black
+  " StatusLineTerm    -> StatusLine
+  " StatusLineTermNC  -> StatusLineNC
+  " TabLine              white             black
+  " TabLineFill          white             black
+  " TabLineSel           white             black
+  " Title                white             black
+  " VertSplit            white             black
+  " Visual               white             black
+  " VisualNOS            white             black
+  " WarningMsg           white             black
+  " WildMenu             white             black
+  " Boolean           -> Constant
+  " Character         -> Constant
+  " Comment              white             none
+  " Conditional       -> Statement
+  " Constant             white             none
+  " Define            -> PreProc
+  " Debug             -> Special
+  " Delimiter         -> Special
+  " Error                white             black             reverse
+  " Exception         -> Statement
+  " Float             -> Constant
+  " Function          -> Identifier
+  " Identifier           white             none
+  " Ignore               white             none
+  " Include           -> PreProc
+  " Keyword           -> Statement
+  " Label             -> Statement
+  " Macro             -> PreProc
+  " Number            -> Constant
+  " Operator          -> Statement
+  " PreCondit         -> PreProc
+  " PreProc              white             none
+  " Repeat            -> Statement
+  " Special              white             none
+  " SpecialChar       -> Special
+  " SpecialComment    -> Special
+  " Statement            white             none
+  " StorageClass      -> Type
+  " String            -> Constant
+  " Structure         -> Type
+  " Tag               -> Special
+  " Todo                 white             none
+  " Type                 white             none
+  " Typedef           -> Type
+  " Underlined           white             none
+  " lCursor           -> Cursor
+  " CursorIM             none              fg
+  " ToolbarLine          none              black
+  " ToolbarButton        white             black             bold

@@ -157,23 +157,41 @@ ToolbarButton        white             black             bold
 
 # Terminal colors {{{
 verbatim
-let g:terminal_ansi_colors = [
-    \ '@guiblack',
-    \ '@guired',
-    \ '@guigreen',
-    \ '@guiyellow',
-    \ '@guiblue',
-    \ '@guimagenta',
-    \ '@guicyan',
-    \ '@guiwhite',
-    \ '@guibrightblack',
-    \ '@guibrightred',
-    \ '@guibrightgreen',
-    \ '@guibrightyellow',
-    \ '@guibrightblue',
-    \ '@guibrightmagenta',
-    \ '@guibrightcyan',
-    \ '@guibrightwhite'
-\ ]
+if has("nvim")
+    let g:terminal_color_0  = "@guiblack"
+    let g:terminal_color_1  = "@guired"
+    let g:terminal_color_2  = "@guigreen"
+    let g:terminal_color_3  = "@guiyellow"
+    let g:terminal_color_4  = "@guiblue"
+    let g:terminal_color_5  = "@guimagenta"
+    let g:terminal_color_6  = "@guicyan"
+    let g:terminal_color_7  = "@guiwhite"
+    let g:terminal_color_8  = "@guibrightblack"
+    let g:terminal_color_9  = "@guibrightred"
+    let g:terminal_color_10 = "@guibrightgreen"
+    let g:terminal_color_11 = "@guibrightyellow"
+    let g:terminal_color_12 = "@guibrightblue"
+    let g:terminal_color_13 = "@guibrightmagenta"
+    let g:terminal_color_14 = "@guibrightcyan"
+    let g:terminal_color_15 = "@guibrightwhite"
+elseif has("terminal")
+    let g:terminal_ansi_colors = [
+        \ '@guiblack',
+        \ '@guired',
+        \ '@guigreen',
+        \ '@guiyellow',
+        \ '@guiblue',
+        \ '@guimagenta',
+        \ '@guicyan',
+        \ '@guiwhite',
+        \ '@guibrightblack',
+        \ '@guibrightred',
+        \ '@guibrightgreen',
+        \ '@guibrightyellow',
+        \ '@guibrightblue',
+        \ '@guibrightmagenta',
+        \ '@guibrightcyan',
+        \ '@guibrightwhite'
+    \ ]
 endverbatim
 # }}}
