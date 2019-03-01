@@ -193,5 +193,6 @@ elseif has("terminal")
         \ '@guibrightcyan',
         \ '@guibrightwhite'
     \ ]
+endif
 endverbatim
 # }}}
