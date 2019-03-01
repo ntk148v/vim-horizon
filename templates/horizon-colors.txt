@@ -1,0 +1,161 @@
+Color information about Horizon
+
+{{{ Color Similarity Table (dark background)
+  brightwhite: GUI=#d5d8da/rgb(213,216,218)  Term=188 #d7d7d7/rgb(215,215,215)  [delta=1.600035]
+         cyan: GUI=#59e1e3/rgb( 89,225,227)  Term= 80 #5fd7d7/rgb( 95,215,215)  [delta=2.462577]
+      magenta: GUI=#ee64ac/rgb(238,100,172)  Term=205 #ff5faf/rgb(255, 95,175)  [delta=2.725028]
+       yellow: GUI=#fab795/rgb(250,183,149)  Term=216 #ffaf87/rgb(255,175,135)  [delta=2.929704]
+ brightyellow: GUI=#fab795/rgb(250,183,149)  Term=216 #ffaf87/rgb(255,175,135)  [delta=2.929704]
+   brightcyan: GUI=#6be4e6/rgb(107,228,230)  Term= 80 #5fd7d7/rgb( 95,215,215)  [delta=3.179057]
+    brightred: GUI=#ec6a88/rgb(236,106,136)  Term=204 #ff5f87/rgb(255, 95,135)  [delta=3.182526]
+  brightgreen: GUI=#3fdaa4/rgb( 63,218,164)  Term= 79 #5fd7af/rgb( 95,215,175)  [delta=3.609030]
+        green: GUI=#29d398/rgb( 41,211,152)  Term= 42 #00d787/rgb(  0,215,135)  [delta=4.004495]
+brightmagenta: GUI=#f075b5/rgb(240,117,181)  Term=205 #ff5faf/rgb(255, 95,175)  [delta=4.082818]
+          red: GUI=#e85678/rgb(232, 86,120)  Term=204 #ff5f87/rgb(255, 95,135)  [delta=4.975920]
+        black: GUI=#1c1e26/rgb( 28, 30, 38)  Term=234 #1c1c1c/rgb( 28, 28, 28)  [delta=5.382095]
+         blue: GUI=#26bbd9/rgb( 38,187,217)  Term= 38 #00afd7/rgb(  0,175,215)  [delta=5.448846]
+   brightblue: GUI=#3fc4de/rgb( 63,196,222)  Term= 45 #00d7ff/rgb(  0,215,255)  [delta=5.998032]
+  brightblack: GUI=#232530/rgb( 35, 37, 48)  Term=235 #262626/rgb( 38, 38, 38)  [delta=6.898833]
+        white: GUI=#2e303e/rgb( 46, 48, 62)  Term=236 #303030/rgb( 48, 48, 48)  [delta=8.201009]
+}}} Color Similarity Table
+
+{{{ Contrast Ratio Matrix (dark background)
+
+Pairs of colors with contrast ≥4.5 can be safely used as a fg/bg combo
+
+█ Not W3C conforming   █ Not ISO-9241-3 conforming
+
+{{{ GUI (exact)
+	black	blue	brightblack	brightblue	brightcyan	brightgreen	brightmagenta	brightred	brightwhite	brightyellow	cyan	green	magenta	red	white	yellow
+black		 7.28	 1.09	 8.05	10.98	 9.32	 6.27	 5.53	11.61	 9.72	10.53	 8.60	 5.58	 4.78	 1.27	 9.72	black
+blue	 7.28		 6.67	 1.11	 1.51	 1.28	 1.16	 1.32	 1.60	 1.34	 1.45	 1.18	 1.30	 1.52	 5.71	 1.34	blue
+brightblack	 1.09	 6.67		 7.37	10.06	 8.54	 5.74	 5.07	10.64	 8.90	 9.65	 7.88	 5.12	 4.38	 1.17	 8.90	brightblack
+brightblue	 8.05	 1.11	 7.37		 1.36	 1.16	 1.28	 1.46	 1.44	 1.21	 1.31	 1.07	 1.44	 1.68	 6.32	 1.21	brightblue
+brightcyan	10.98	 1.51	10.06	 1.36		 1.18	 1.75	 1.99	 1.06	 1.13	 1.04	 1.28	 1.97	 2.30	 8.62	 1.13	brightcyan
+brightgreen	 9.32	 1.28	 8.54	 1.16	 1.18		 1.49	 1.69	 1.25	 1.04	 1.13	 1.08	 1.67	 1.95	 7.32	 1.04	brightgreen
+brightmagenta	 6.27	 1.16	 5.74	 1.28	 1.75	 1.49		 1.13	 1.85	 1.55	 1.68	 1.37	 1.12	 1.31	 4.92	 1.55	brightmagenta
+brightred	 5.53	 1.32	 5.07	 1.46	 1.99	 1.69	 1.13		 2.10	 1.76	 1.91	 1.56	 1.01	 1.16	 4.34	 1.76	brightred
+brightwhite	11.61	 1.60	10.64	 1.44	 1.06	 1.25	 1.85	 2.10		 1.19	 1.10	 1.35	 2.08	 2.43	 9.12	 1.19	brightwhite
+brightyellow	 9.72	 1.34	 8.90	 1.21	 1.13	 1.04	 1.55	 1.76	 1.19		 1.08	 1.13	 1.74	 2.03	 7.63	 1.00	brightyellow
+cyan	10.53	 1.45	 9.65	 1.31	 1.04	 1.13	 1.68	 1.91	 1.10	 1.08		 1.22	 1.89	 2.21	 8.27	 1.08	cyan
+green	 8.60	 1.18	 7.88	 1.07	 1.28	 1.08	 1.37	 1.56	 1.35	 1.13	 1.22		 1.54	 1.80	 6.75	 1.13	green
+magenta	 5.58	 1.30	 5.12	 1.44	 1.97	 1.67	 1.12	 1.01	 2.08	 1.74	 1.89	 1.54		 1.17	 4.39	 1.74	magenta
+red	 4.78	 1.52	 4.38	 1.68	 2.30	 1.95	 1.31	 1.16	 2.43	 2.03	 2.21	 1.80	 1.17		 3.75	 2.03	red
+white	 1.27	 5.71	 1.17	 6.32	 8.62	 7.32	 4.92	 4.34	 9.12	 7.63	 8.27	 6.75	 4.39	 3.75		 7.63	white
+yellow	 9.72	 1.34	 8.90	 1.21	 1.13	 1.04	 1.55	 1.76	 1.19	 1.00	 1.08	 1.13	 1.74	 2.03	 7.63		yellow
+	black	blue	brightblack	brightblue	brightcyan	brightgreen	brightmagenta	brightred	brightwhite	brightyellow	cyan	green	magenta	red	white	yellow
+}}}
+{{{ Terminal (approximate)
+	black	blue	brightblack	brightblue	brightcyan	brightgreen	brightmagenta	brightred	brightwhite	brightyellow	cyan	green	magenta	red	white	yellow
+black		 6.58	 1.13	 9.87	 9.89	 9.60	 6.09	 5.87	11.84	 9.52	 9.89	 8.98	 6.09	 5.87	 1.29	 9.52	black
+blue	 6.58		 5.85	 1.50	 1.50	 1.46	 1.08	 1.12	 1.80	 1.45	 1.50	 1.36	 1.08	 1.12	 5.10	 1.45	blue
+brightblack	 1.13	 5.85		 8.77	 8.78	 8.52	 5.41	 5.22	10.51	 8.46	 8.78	 7.98	 5.41	 5.22	 1.15	 8.46	brightblack
+brightblue	 9.87	 1.50	 8.77		 1.00	 1.03	 1.62	 1.68	 1.20	 1.04	 1.00	 1.10	 1.62	 1.68	 7.64	 1.04	brightblue
+brightcyan	 9.89	 1.50	 8.78	 1.00		 1.03	 1.62	 1.68	 1.20	 1.04	 1.00	 1.10	 1.62	 1.68	 7.66	 1.04	brightcyan
+brightgreen	 9.60	 1.46	 8.52	 1.03	 1.03		 1.58	 1.63	 1.23	 1.01	 1.03	 1.07	 1.58	 1.63	 7.43	 1.01	brightgreen
+brightmagenta	 6.09	 1.08	 5.41	 1.62	 1.62	 1.58		 1.04	 1.94	 1.56	 1.62	 1.47	 1.00	 1.04	 4.72	 1.56	brightmagenta
+brightred	 5.87	 1.12	 5.22	 1.68	 1.68	 1.63	 1.04		 2.02	 1.62	 1.68	 1.53	 1.04	 1.00	 4.55	 1.62	brightred
+brightwhite	11.84	 1.80	10.51	 1.20	 1.20	 1.23	 1.94	 2.02		 1.24	 1.20	 1.32	 1.94	 2.02	 9.17	 1.24	brightwhite
+brightyellow	 9.52	 1.45	 8.46	 1.04	 1.04	 1.01	 1.56	 1.62	 1.24		 1.04	 1.06	 1.56	 1.62	 7.37	 1.00	brightyellow
+cyan	 9.89	 1.50	 8.78	 1.00	 1.00	 1.03	 1.62	 1.68	 1.20	 1.04		 1.10	 1.62	 1.68	 7.66	 1.04	cyan
+green	 8.98	 1.36	 7.98	 1.10	 1.10	 1.07	 1.47	 1.53	 1.32	 1.06	 1.10		 1.47	 1.53	 6.96	 1.06	green
+magenta	 6.09	 1.08	 5.41	 1.62	 1.62	 1.58	 1.00	 1.04	 1.94	 1.56	 1.62	 1.47		 1.04	 4.72	 1.56	magenta
+red	 5.87	 1.12	 5.22	 1.68	 1.68	 1.63	 1.04	 1.00	 2.02	 1.62	 1.68	 1.53	 1.04		 4.55	 1.62	red
+white	 1.29	 5.10	 1.15	 7.64	 7.66	 7.43	 4.72	 4.55	 9.17	 7.37	 7.66	 6.96	 4.72	 4.55		 7.37	white
+yellow	 9.52	 1.45	 8.46	 1.04	 1.04	 1.01	 1.56	 1.62	 1.24	 1.00	 1.04	 1.06	 1.56	 1.62	 7.37		yellow
+	black	blue	brightblack	brightblue	brightcyan	brightgreen	brightmagenta	brightred	brightwhite	brightyellow	cyan	green	magenta	red	white	yellow
+}}}
+}}} Contrast Ratio Matrix
+
+{{{ Brightness Difference Matrix (dark background)
+
+Pairs of colors whose brightness difference is ≥125 can be safely used as a fg/bg combo
+
+{{{ GUI (exact)
+	black	blue	brightblack	brightblue	brightcyan	brightgreen	brightmagenta	brightred	brightwhite	brightyellow	cyan	green	magenta	red	white	yellow
+black		115.6	  7.3	128.9	161.7	135.2	130.8	118.0	185.0	168.8	154.2	123.1	119.2	103.2	 18.7	168.8	black
+blue	115.6		108.2	 13.3	 46.2	 19.6	 15.2	  2.4	 69.5	 53.3	 38.7	  7.6	  3.6	 12.3	 96.9	 53.3	blue
+brightblack	  7.3	108.2		121.5	154.4	127.8	123.4	110.6	177.7	161.5	146.9	115.8	111.8	 95.9	 11.3	161.5	brightblack
+brightblue	128.9	 13.3	121.5		 32.9	  6.3	  1.9	 10.9	 56.1	 40.0	 25.4	  5.8	  9.7	 25.7	110.2	 40.0	brightblue
+brightcyan	161.7	 46.2	154.4	 32.9		 26.6	 31.0	 43.8	 23.3	  7.1	  7.5	 38.6	 42.6	 58.5	143.1	  7.1	brightcyan
+brightgreen	135.2	 19.6	127.8	  6.3	 26.6		  4.4	 17.2	 49.8	 33.7	 19.1	 12.1	 16.0	 32.0	116.5	 33.7	brightgreen
+brightmagenta	130.8	 15.2	123.4	  1.9	 31.0	  4.4		 12.8	 54.3	 38.1	 23.5	  7.6	 11.6	 27.5	112.1	 38.1	brightmagenta
+brightred	118.0	  2.4	110.6	 10.9	 43.8	 17.2	 12.8		 67.0	 50.9	 36.3	  5.2	  1.2	 14.8	 99.3	 50.9	brightred
+brightwhite	185.0	 69.5	177.7	 56.1	 23.3	 49.8	 54.3	 67.0		 16.2	 30.8	 61.9	 65.9	 81.8	166.3	 16.2	brightwhite
+brightyellow	168.8	 53.3	161.5	 40.0	  7.1	 33.7	 38.1	 50.9	 16.2		 14.6	 45.7	 49.7	 65.6	150.2	  0.0	brightyellow
+cyan	154.2	 38.7	146.9	 25.4	  7.5	 19.1	 23.5	 36.3	 30.8	 14.6		 31.1	 35.1	 51.0	135.6	 14.6	cyan
+green	123.1	  7.6	115.8	  5.8	 38.6	 12.1	  7.6	  5.2	 61.9	 45.7	 31.1		  4.0	 19.9	104.4	 45.7	green
+magenta	119.2	  3.6	111.8	  9.7	 42.6	 16.0	 11.6	  1.2	 65.9	 49.7	 35.1	  4.0		 15.9	100.5	 49.7	magenta
+red	103.2	 12.3	 95.9	 25.7	 58.5	 32.0	 27.5	 14.8	 81.8	 65.6	 51.0	 19.9	 15.9		 84.5	 65.6	red
+white	 18.7	 96.9	 11.3	110.2	143.1	116.5	112.1	 99.3	166.3	150.2	135.6	104.4	100.5	 84.5		150.2	white
+yellow	168.8	 53.3	161.5	 40.0	  7.1	 33.7	 38.1	 50.9	 16.2	  0.0	 14.6	 45.7	 49.7	 65.6	150.2		yellow
+	black	blue	brightblack	brightblue	brightcyan	brightgreen	brightmagenta	brightred	brightwhite	brightyellow	cyan	green	magenta	red	white	yellow
+}}}
+{{{ Terminal (approximate)
+	black	blue	brightblack	brightblue	brightcyan	brightgreen	brightmagenta	brightred	brightwhite	brightyellow	cyan	green	magenta	red	white	yellow
+black		 99.2	 10.0	127.3	151.1	146.6	124.0	119.4	187.0	166.4	151.1	113.6	124.0	119.4	 20.0	166.4	black
+blue	 99.2		 89.2	 28.0	 51.9	 47.3	 24.7	 20.2	 87.8	 67.1	 51.9	 14.4	 24.7	 20.2	 79.2	 67.1	blue
+brightblack	 10.0	 89.2		117.3	141.1	136.6	114.0	109.4	177.0	156.4	141.1	103.6	114.0	109.4	 10.0	156.4	brightblack
+brightblue	127.3	 28.0	117.3		 23.8	 19.3	  3.3	  7.9	 59.7	 39.1	 23.8	 13.7	  3.3	  7.9	107.3	 39.1	brightblue
+brightcyan	151.1	 51.9	141.1	 23.8		  4.6	 27.2	 31.7	 35.9	 15.2	  0.0	 37.5	 27.2	 31.7	131.1	 15.2	brightcyan
+brightgreen	146.6	 47.3	136.6	 19.3	  4.6		 22.6	 27.2	 40.4	 19.8	  4.6	 33.0	 22.6	 27.2	126.6	 19.8	brightgreen
+brightmagenta	124.0	 24.7	114.0	  3.3	 27.2	 22.6		  4.6	 63.0	 42.4	 27.2	 10.4	  0.0	  4.6	104.0	 42.4	brightmagenta
+brightred	119.4	 20.2	109.4	  7.9	 31.7	 27.2	  4.6		 67.6	 47.0	 31.7	  5.8	  4.6	  0.0	 99.4	 47.0	brightred
+brightwhite	187.0	 87.8	177.0	 59.7	 35.9	 40.4	 63.0	 67.6		 20.6	 35.9	 73.4	 63.0	 67.6	167.0	 20.6	brightwhite
+brightyellow	166.4	 67.1	156.4	 39.1	 15.2	 19.8	 42.4	 47.0	 20.6		 15.2	 52.8	 42.4	 47.0	146.4	  0.0	brightyellow
+cyan	151.1	 51.9	141.1	 23.8	  0.0	  4.6	 27.2	 31.7	 35.9	 15.2		 37.5	 27.2	 31.7	131.1	 15.2	cyan
+green	113.6	 14.4	103.6	 13.7	 37.5	 33.0	 10.4	  5.8	 73.4	 52.8	 37.5		 10.4	  5.8	 93.6	 52.8	green
+magenta	124.0	 24.7	114.0	  3.3	 27.2	 22.6	  0.0	  4.6	 63.0	 42.4	 27.2	 10.4		  4.6	104.0	 42.4	magenta
+red	119.4	 20.2	109.4	  7.9	 31.7	 27.2	  4.6	  0.0	 67.6	 47.0	 31.7	  5.8	  4.6		 99.4	 47.0	red
+white	 20.0	 79.2	 10.0	107.3	131.1	126.6	104.0	 99.4	167.0	146.4	131.1	 93.6	104.0	 99.4		146.4	white
+yellow	166.4	 67.1	156.4	 39.1	 15.2	 19.8	 42.4	 47.0	 20.6	  0.0	 15.2	 52.8	 42.4	 47.0	146.4		yellow
+	black	blue	brightblack	brightblue	brightcyan	brightgreen	brightmagenta	brightred	brightwhite	brightyellow	cyan	green	magenta	red	white	yellow
+}}}
+}}} Brightness Difference Matrix
+
+{{{ Color Difference Matrix (dark background)
+
+Pairs of colors whose color difference is ≥500 can be safely used as a fg/bg combo
+
+{{{ GUI (exact)
+	black	blue	brightblack	brightblue	brightcyan	brightgreen	brightmagenta	brightred	brightwhite	brightyellow	cyan	green	magenta	red	white	yellow
+black		346.0	 24.0	385.0	469.0	349.0	442.0	382.0	551.0	486.0	445.0	308.0	414.0	342.0	 60.0	486.0	black
+blue	346.0		322.0	 39.0	123.0	109.0	308.0	360.0	205.0	284.0	 99.0	 92.0	332.0	392.0	302.0	284.0	blue
+brightblack	 24.0	322.0		361.0	445.0	325.0	418.0	358.0	527.0	462.0	421.0	284.0	390.0	318.0	 36.0	462.0	brightblack
+brightblue	385.0	 39.0	361.0		 84.0	 80.0	297.0	349.0	174.0	273.0	 60.0	107.0	321.0	381.0	325.0	273.0	brightblue
+brightcyan	469.0	123.0	445.0	 84.0		120.0	293.0	345.0	130.0	269.0	 24.0	161.0	317.0	377.0	409.0	269.0	brightcyan
+brightgreen	349.0	109.0	325.0	 80.0	120.0		295.0	313.0	206.0	237.0	 96.0	 41.0	301.0	345.0	289.0	237.0	brightgreen
+brightmagenta	442.0	308.0	418.0	297.0	293.0	295.0		 60.0	163.0	108.0	305.0	322.0	 28.0	100.0	382.0	108.0	brightmagenta
+brightred	382.0	360.0	358.0	349.0	345.0	313.0	 60.0		215.0	104.0	357.0	316.0	 44.0	 40.0	322.0	104.0	brightred
+brightwhite	551.0	205.0	527.0	174.0	130.0	206.0	163.0	215.0		139.0	142.0	243.0	187.0	247.0	491.0	139.0	brightwhite
+brightyellow	486.0	284.0	462.0	273.0	269.0	237.0	108.0	104.0	139.0		281.0	240.0	118.0	144.0	426.0	  0.0	brightyellow
+cyan	445.0	 99.0	421.0	 60.0	 24.0	 96.0	305.0	357.0	142.0	281.0		137.0	329.0	389.0	385.0	281.0	cyan
+green	308.0	 92.0	284.0	107.0	161.0	 41.0	322.0	316.0	243.0	240.0	137.0		328.0	348.0	258.0	240.0	green
+magenta	414.0	332.0	390.0	321.0	317.0	301.0	 28.0	 44.0	187.0	118.0	329.0	328.0		 72.0	354.0	118.0	magenta
+red	342.0	392.0	318.0	381.0	377.0	345.0	100.0	 40.0	247.0	144.0	389.0	348.0	 72.0		282.0	144.0	red
+white	 60.0	302.0	 36.0	325.0	409.0	289.0	382.0	322.0	491.0	426.0	385.0	258.0	354.0	282.0		426.0	white
+yellow	486.0	284.0	462.0	273.0	269.0	237.0	108.0	104.0	139.0	  0.0	281.0	240.0	118.0	144.0	426.0		yellow
+	black	blue	brightblack	brightblue	brightcyan	brightgreen	brightmagenta	brightred	brightwhite	brightyellow	cyan	green	magenta	red	white	yellow
+}}}
+{{{ Terminal (approximate)
+	black	blue	brightblack	brightblue	brightcyan	brightgreen	brightmagenta	brightred	brightwhite	brightyellow	cyan	green	magenta	red	white	yellow
+black		362.0	 30.0	442.0	441.0	401.0	441.0	401.0	561.0	481.0	441.0	322.0	441.0	401.0	 60.0	481.0	black
+blue	362.0		352.0	 80.0	135.0	175.0	375.0	415.0	255.0	335.0	135.0	120.0	375.0	415.0	342.0	335.0	blue
+brightblack	 30.0	352.0		432.0	411.0	371.0	411.0	371.0	531.0	451.0	411.0	312.0	411.0	371.0	 30.0	451.0	brightblack
+brightblue	442.0	 80.0	432.0		135.0	175.0	455.0	495.0	255.0	415.0	135.0	120.0	455.0	495.0	422.0	415.0	brightblue
+brightcyan	441.0	135.0	411.0	135.0		 40.0	320.0	360.0	120.0	280.0	  0.0	175.0	320.0	360.0	381.0	280.0	brightcyan
+brightgreen	401.0	175.0	371.0	175.0	 40.0		280.0	320.0	160.0	240.0	 40.0	135.0	280.0	320.0	341.0	240.0	brightgreen
+brightmagenta	441.0	375.0	411.0	455.0	320.0	280.0		 40.0	200.0	120.0	320.0	415.0	  0.0	 40.0	381.0	120.0	brightmagenta
+brightred	401.0	415.0	371.0	495.0	360.0	320.0	 40.0		240.0	 80.0	360.0	375.0	 40.0	  0.0	341.0	 80.0	brightred
+brightwhite	561.0	255.0	531.0	255.0	120.0	160.0	200.0	240.0		160.0	120.0	295.0	200.0	240.0	501.0	160.0	brightwhite
+brightyellow	481.0	335.0	451.0	415.0	280.0	240.0	120.0	 80.0	160.0		280.0	295.0	120.0	 80.0	421.0	  0.0	brightyellow
+cyan	441.0	135.0	411.0	135.0	  0.0	 40.0	320.0	360.0	120.0	280.0		175.0	320.0	360.0	381.0	280.0	cyan
+green	322.0	120.0	312.0	120.0	175.0	135.0	415.0	375.0	295.0	295.0	175.0		415.0	375.0	302.0	295.0	green
+magenta	441.0	375.0	411.0	455.0	320.0	280.0	  0.0	 40.0	200.0	120.0	320.0	415.0		 40.0	381.0	120.0	magenta
+red	401.0	415.0	371.0	495.0	360.0	320.0	 40.0	  0.0	240.0	 80.0	360.0	375.0	 40.0		341.0	 80.0	red
+white	 60.0	342.0	 30.0	422.0	381.0	341.0	381.0	341.0	501.0	421.0	381.0	302.0	381.0	341.0		421.0	white
+yellow	481.0	335.0	451.0	415.0	280.0	240.0	120.0	 80.0	160.0	  0.0	280.0	295.0	120.0	 80.0	421.0		yellow
+	black	blue	brightblack	brightblue	brightcyan	brightgreen	brightmagenta	brightred	brightwhite	brightyellow	cyan	green	magenta	red	white	yellow
+}}}
+}}} Color Difference Matrix
+

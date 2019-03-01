@@ -23,7 +23,7 @@ Background: dark
 # Color palette {{{
 # Color name                GUI                  Base256    Base16 (optional)
 Color: black                #1c1e26                ~        Black
-Color: white                #232530                ~        LightGrey
+Color: white                #2e303e                ~        LightGrey
 Color: blue                 #26bbd9                ~        DarkBlue
 Color: cyan                 #59e1e3                ~        DarkCyan
 Color: green                #29d398                ~        DarkGreen
@@ -36,6 +36,8 @@ Color: brightgreen          #3fdaa4                ~        LightGreen
 Color: brightmagenta        #f075b5                ~        LightMagenta
 Color: brightred            #ec6a88                ~        LightRed
 Color: brightyellow         #fab795                ~        LightYellow
+Color: brightblack          #232530                ~        DarkGrey
+Color: brightwhite          #d5d8da                ~        LightGrey
 # }}}
 
 # Default highlight groups {{{

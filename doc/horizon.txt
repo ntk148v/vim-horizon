@@ -1,16 +1,13 @@
-# vim: ft=colortemplate fdm=marker noet ts=8 tw=78
-
-documentation
 ==============================================================================
-@fullname colorscheme					*@shortname*
+Horizon colorscheme					*horizon*
 
 DOCUMENT YOUR COLORSCHEME'S OPTIONS HERE, IF ANY, AND REMOVE THIS LINE.
 
-						*g:@optionprefix_transp_bg*
+						*g:horizon_transp_bg*
 Set to 1 if you want a transparent background. Takes effect only in the
 terminal.
 >
-	let g:@optionprefix_transp_bg = 0
+	let g:horizon_transp_bg = 0
 <
-enddocumentation
 
+vim:tw=78:ts=8:ft=help:norl:
