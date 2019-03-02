@@ -21,12 +21,12 @@ endif
 
 let g:colors_name = 'horizon'
 
-hi! ColorColumn cterm=NONE ctermbg=235 guibg=#1c1e26
-hi! CursorColumn cterm=NONE ctermbg=235 guibg=#1c1e26
-hi! CursorLine cterm=NONE ctermbg=235 guibg=#1c1e26
+hi! ColorColumn cterm=NONE ctermbg=235 guibg=#2e303e
+hi! CursorColumn cterm=NONE ctermbg=235 guibg=#2e303e
+hi! CursorLine cterm=NONE ctermbg=235 guibg=#2e303e
 hi! Comment ctermfg=242 guifg=#d5d8da
 hi! Constant ctermfg=140 guifg=#f09483
-hi! Cursor ctermbg=252 ctermfg=234 guibg=#1c1e26 guifg=#e95678
+hi! Cursor ctermbg=252 ctermfg=234 guibg=#2e303e guifg=#e95678
 hi! CursorLineNr ctermbg=237 ctermfg=253 guibg=#2a3158 guifg=#cdd1e6
 hi! Delimiter ctermfg=252 guifg=#1c1e26
 hi! DiffAdd ctermbg=29 ctermfg=158 guibg=#45493e guifg=#c0c5b9
@@ -48,7 +48,7 @@ hi! Include ctermfg=110 guifg=#25b0bc
 hi! LineNr ctermbg=234 ctermfg=239 guibg=#1c1e26 guifg=#6c6f93
 hi! MatchParen ctermbg=237 ctermfg=255 guibg=#3e445e guifg=#ffffff
 hi! MoreMsg ctermfg=150 guifg=#09f7a0
-hi! Normal ctermbg=234 ctermfg=252 guibg=#e95678 guifg=#1c1e26
+hi! Normal ctermbg=234 ctermfg=252 guibg=#1c1e26 guifg=#d5d8da
 hi! Operator ctermfg=110 guifg=#25b0bc
 hi! Pmenu ctermbg=236 ctermfg=251 guibg=#3d425b guifg=#1c1e26
 hi! PmenuSbar ctermbg=236 guibg=#3d425b
@@ -59,25 +59,25 @@ hi! Question ctermfg=150 guifg=#09f7a0
 hi! QuickFixLine ctermbg=236 ctermfg=252 guibg=#272c42 guifg=#1c1e26
 hi! Search ctermbg=216 ctermfg=234 guibg=#e4aa80 guifg=#392313
 hi! SignColumn ctermbg=235 ctermfg=239 guibg=#1c1e26 guifg=#6c6f93
-hi! Special ctermfg=150 guifg=#09f7a0
+hi! Special ctermfg=150 guifg=#e95678
 hi! SpellBad ctermbg=95 ctermfg=252 gui=undercurl guisp=#eC6a88
 hi! SpellCap ctermbg=24 ctermfg=252 gui=undercurl guisp=#25b0bc
 hi! SpellLocal ctermbg=23 ctermfg=252 gui=undercurl guisp=#e95678
 hi! SpellRare ctermbg=97 ctermfg=252 gui=undercurl guisp=#f09483
-hi! Statement ctermfg=110 gui=NONE guifg=#25b0bc
+hi! Statement ctermfg=110 gui=NONE guifg=#b877db
 hi! StatusLine cterm=reverse ctermbg=234 ctermfg=245 gui=reverse guibg=#17171b guifg=#818596 term=reverse
 hi! StatusLineTerm cterm=reverse ctermbg=234 ctermfg=245 gui=reverse guibg=#17171b guifg=#818596 term=reverse
 hi! StatusLineNC cterm=reverse ctermbg=238 ctermfg=233 gui=reverse guibg=#3e445e guifg=#0f1117
 hi! StatusLineTermNC cterm=reverse ctermbg=238 ctermfg=233 gui=reverse guibg=#3e445e guifg=#0f1117
 hi! StorageClass ctermfg=110 guifg=#25b0bc
-hi! String ctermfg=109 guifg=#e95678
+hi! String ctermfg=109 guifg=#fab795
 hi! Structure ctermfg=110 guifg=#25b0bc
 hi! TabLine cterm=NONE ctermbg=245 ctermfg=234 gui=NONE guibg=#818596 guifg=#17171b
 hi! TabLineFill cterm=reverse ctermbg=234 ctermfg=245 gui=reverse guibg=#17171b guifg=#818596
 hi! TabLineSel cterm=NONE ctermbg=234 ctermfg=252 gui=NONE guibg=#e95678 guifg=#9a9ca5
-hi! Title ctermfg=216 gui=NONE guifg=#fab795
+hi! Title ctermfg=216 gui=NONE guifg=#25b0bc
 hi! Todo ctermbg=234 ctermfg=150 guibg=#45493e guifg=#09f7a0
-hi! Type ctermfg=110 gui=NONE guifg=#25b0bc
+hi! Type ctermfg=110 gui=NONE guifg=#fab795
 hi! Underlined cterm=underline ctermfg=110 gui=underline guifg=#25b0bc term=underline
 hi! VertSplit cterm=NONE ctermbg=233 ctermfg=233 gui=NONE guibg=#0f1117 guifg=#0f1117
 hi! Visual ctermbg=236 guibg=#272c42
@@ -104,7 +104,6 @@ hi! SyntasticStyleErrorSign ctermbg=235 ctermfg=203 guibg=#1c1e26 guifg=#eC6a88
 hi! SyntasticStyleWarningSign ctermbg=235 ctermfg=216 guibg=#1c1e26 guifg=#fab795
 hi! SyntasticWarningSign ctermbg=235 ctermfg=216 guibg=#1c1e26 guifg=#fab795
 hi! ZenSpace ctermbg=203 guibg=#eC6a88
-hi! icebergALAccentRed ctermfg=203 guifg=#eC6a88
 
 hi! link cssBraces Delimiter
 hi! link cssClassName Special
