@@ -28,7 +28,7 @@ hi! Comment ctermfg=242 guifg=#6c6f93
 hi! Constant ctermfg=140 guifg=#f09483
 hi! Cursor ctermbg=252 ctermfg=234 guibg=#6c6f93 guifg=#6c6f93
 hi! CursorLineNr ctermbg=237 ctermfg=253 guibg=#2a3158 guifg=#cdd1e6
-hi! Delimiter ctermfg=252 guifg=#1c1e26
+hi! Delimiter ctermfg=252 guifg=#21bfc2
 hi! DiffAdd ctermbg=29 ctermfg=158 guibg=#45493e guifg=#c0c5b9
 hi! DiffChange ctermbg=23 ctermfg=159 guibg=#384851 guifg=#b3c3cc
 hi! DiffDelete ctermbg=95 ctermfg=224 guibg=#53343b guifg=#ceb0b6
