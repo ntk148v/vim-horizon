@@ -9,3 +9,14 @@ Horizon is a beautifully warm dark colorscheme for Vim & inspired by [Visual Stu
 ```
 Plug 'ntk148v/vim-horizon'
 ```
+
+* Other Vim Plugin Management Tools should be the same.
+
+## Screenshots
+
+![screenshot-python](./screenshots/screenshot1.png)
+
+![screenshot-initvim](./screenshots/screenshot2.png)
+
+
+
