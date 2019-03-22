@@ -38,7 +38,7 @@ hi! Error ctermbg=233 ctermfg=203 guibg=#1c1e26 guifg=#eC6a88
 hi! ErrorMsg ctermbg=233 ctermfg=203 guibg=#1c1e26 guifg=#ec6a88
 hi! WarningMsg ctermbg=233 ctermfg=203 guibg=#1c1e26 guifg=#eC6a88
 hi! EndOfBuffer ctermbg=233 ctermfg=236 guibg=#1c1e26 guifg=#2e303e
-hi! NonText ctermbg=233 ctermfg=233 guifg=#1c1e26 guibg=#1c1e26
+hi! NonText ctermbg=233 ctermfg=233 guifg=#2e303e guibg=#1c1e26
 hi! SpecialKey ctermbg=203 ctermfg=235 guibg=#e95678 guifg=#2e303e
 hi! Folded ctermbg=233 ctermfg=242 guibg=#1c1e26 guifg=#6c6f93
 hi! FoldColumn ctermbg=233 ctermfg=242 guibg=#1c1e26 guifg=#6c6f93
