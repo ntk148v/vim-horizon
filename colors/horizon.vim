@@ -24,7 +24,7 @@ let g:colors_name = 'horizon'
 hi! ColorColumn cterm=NONE ctermbg=235 guibg=#2e303e
 hi! CursorColumn cterm=NONE ctermbg=235 guibg=#2e303e
 hi! CursorLine cterm=NONE ctermbg=235 guibg=#2e303e
-hi! Comment ctermfg=242 guifg=#6c6f93
+hi! Comment ctermfg=242 guifg=#6c6f93 cterm=italic
 hi! Constant ctermfg=209 guifg=#f09483
 hi! Cursor ctermbg=242 ctermfg=242 guibg=#6c6f93 guifg=#6c6f93
 hi! CursorLineNr ctermbg=235 ctermfg=251 guibg=#2a3158 guifg=#cdd1e6
@@ -43,7 +43,7 @@ hi! SpecialKey ctermbg=203 ctermfg=235 guibg=#e95678 guifg=#2e303e
 hi! Folded ctermbg=233 ctermfg=242 guibg=#1c1e26 guifg=#6c6f93
 hi! FoldColumn ctermbg=233 ctermfg=242 guibg=#1c1e26 guifg=#6c6f93
 hi! Function ctermfg=37 guifg=#25b0bc
-hi! Identifier cterm=NONE ctermfg=203 guifg=#e95678 gui=italic
+hi! Identifier cterm=NONE ctermfg=203 guifg=#e95678 gui=italic cterm=italic
 hi! Statement ctermfg=171 gui=NONE guifg=#b877db
 hi! Include ctermfg=171 guifg=#b877db
 hi! LineNr ctermbg=233 ctermfg=239 guibg=#1c1e26 guifg=#6c6f93
@@ -69,7 +69,7 @@ hi! StatusLine cterm=reverse ctermbg=234 ctermfg=245 gui=reverse guibg=#17171b g
 hi! StatusLineTerm cterm=reverse ctermbg=234 ctermfg=245 gui=reverse guibg=#17171b guifg=#818596 term=reverse
 hi! StatusLineNC cterm=reverse ctermbg=237 ctermfg=233 gui=reverse guibg=#3e445e guifg=#0f1117
 hi! StatusLineTermNC cterm=reverse ctermbg=237 ctermfg=233 gui=reverse guibg=#3e445e guifg=#0f1117
-hi! StorageClass ctermfg=37 guifg=#25b0bc gui=italic
+hi! StorageClass ctermfg=37 guifg=#25b0bc gui=italic cterm=italic
 hi! String ctermfg=209 guifg=#fab795
 hi! Structure ctermfg=37 guifg=#25b0bc
 hi! TabLine cterm=NONE ctermbg=245 ctermfg=234 gui=NONE guibg=#818596 guifg=#17171b
