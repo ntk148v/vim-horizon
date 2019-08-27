@@ -43,8 +43,8 @@ hi! SpecialKey ctermbg=203 ctermfg=235 guibg=#e95678 guifg=#2e303e
 hi! Folded ctermbg=233 ctermfg=242 guibg=#1c1e26 guifg=#6c6f93
 hi! FoldColumn ctermbg=233 ctermfg=242 guibg=#1c1e26 guifg=#6c6f93
 hi! Function ctermfg=37 guifg=#25b0bc
-hi! Identifier cterm=NONE ctermfg=203 guifg=#e95678 gui=italic cterm=italic
-hi! Statement ctermfg=171 gui=NONE guifg=#b877db
+hi! Identifier ctermfg=203 guifg=#e95678 gui=italic cterm=none
+hi! Statement ctermfg=171 gui=NONE guifg=#b877db cterm=bold
 hi! Include ctermfg=171 guifg=#b877db
 hi! LineNr ctermbg=233 ctermfg=239 guibg=#1c1e26 guifg=#6c6f93
 hi! MatchParen ctermbg=237 ctermfg=255 guibg=#3e445e guifg=#ffffff
