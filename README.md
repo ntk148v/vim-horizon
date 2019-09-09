@@ -14,9 +14,13 @@ Plug 'ntk148v/vim-horizon'
 
 ## Screenshots
 
-![screenshot-python](./screenshots/screenshot1.png)
+* [Hurmit Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hermit)
+* [Goyo](https://github.com/junegunn/goyo.vim)
 
-![screenshot-initvim](./screenshots/screenshot2.png)
+![](./screenshots/screenshot1.png)
 
+![](./screenshots/screenshot2.png)
 
+## Compatibility
 
+I only tested vim-horizon with Neovim, but it might work with Vim as well.
