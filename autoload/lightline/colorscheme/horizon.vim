@@ -7,15 +7,15 @@
 " License:      Vim License (see `:help license`)
 " =============================================================================
 
-let s:gray1 = [ '', 235 ]
-let s:gray2 = [ '', 233 ]
-let s:white = [ '', 242 ]
-let s:cyan = [ '', 37 ]
-let s:green = [ '', 48 ]
-let s:purple = [ '', 171 ]
-let s:red = [ '', 203 ]
-let s:yellow = [ '', 150 ]
-let s:salmon = [ '', 209 ]
+let s:gray1 = [ '#2e303e', 235 ]
+let s:gray2 = [ '#1c1e26', 233 ]
+let s:white = [ '#6c6f93', 242 ]
+let s:cyan = [ '#25b0bc', 37 ]
+let s:green = [ '#09f7a0', 48 ]
+let s:purple = [ '#b877db', 171 ]
+let s:red = [ '#e95678', 203 ]
+let s:yellow = [ '#09f7a0', 150 ]
+let s:salmon = [ '#fab795', 209 ]
 
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
 let s:p.normal.left = [ [ s:gray1, s:salmon ], [ s:red, s:gray2 ] ]
