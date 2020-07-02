@@ -40,12 +40,11 @@ To apply lightline colorscheme without reloading:
 
 ## Screenshots
 
-* [Hurmit Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hermit)
-* [Goyo](https://github.com/junegunn/goyo.vim)
-
 ![](./screenshots/screenshot1.png)
 
 ![](./screenshots/screenshot2.png)
+
+![](./screenshots/screenshot3.png)
 
 ## Compatibility
 

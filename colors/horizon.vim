@@ -4,7 +4,7 @@
 " Maintainer:   Kien Nguyen-Tuan <kienn2609@gmail.com>
 " Website:      https://ntk148v.github.io/blog
 " License:      Vim License (see `:help license`)
-" Last Updated: Thứ sáu, 01 Tháng 3 Năm 2019 16:06:23 +07
+" Last Updated: Thursday July 2 15:01:35 2020
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running')
       \ && (!exists('&t_Co') || &t_Co < 256)
