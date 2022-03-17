@@ -52,20 +52,13 @@ I only tested vim-horizon with Neovim, but it might work with Vim as well.
 
 ## Color Palette
 
-| Preview                                                            | Color       |
-| ------------------------------------------------------------------ | ----------- |
-| ![#09f7a0](https://via.placeholder.com/60x40/09f7a0/000000?text=+) | **#09f7a0** |
-| ![#1c1e26](https://via.placeholder.com/60x40/1c1e26/000000?text=+) | **#1c1e26** |
-| ![#1c1e26](https://via.placeholder.com/60x40/1c1e26/000000?text=+) | **#1c1e26** |
-| ![#21bfc2](https://via.placeholder.com/60x40/21bfc2/000000?text=+) | **#21bfc2** |
-| ![#25b0bc](https://via.placeholder.com/60x40/25b0bc/000000?text=+) | **#25b0bc** |
-| ![#6bdfe6](https://via.placeholder.com/60x40/6bdfe6/000000?text=+) | **#6bdfe6** |
-| ![#95c4ce](https://via.placeholder.com/60x40/95c4ce/000000?text=+) | **#95c4ce** |
-| ![#b877db](https://via.placeholder.com/60x40/b877db/000000?text=+) | **#b877db** |
-| ![#d2d4de](https://via.placeholder.com/60x40/d2d4de/000000?text=+) | **#d2d4de** |
-| ![#d5d8da](https://via.placeholder.com/60x40/d5d8da/000000?text=+) | **#d5d8da** |
-| ![#e95678](https://via.placeholder.com/60x40/e95678/000000?text=+) | **#e95678** |
-| ![#ec6a88](https://via.placeholder.com/60x40/ec6a88/000000?text=+) | **#ec6a88** |
-| ![#f09483](https://via.placeholder.com/60x40/f09483/000000?text=+) | **#f09483** |
-| ![#fab38e](https://via.placeholder.com/60x40/fab38e/000000?text=+) | **#fab38e** |
-| ![#fab795](https://via.placeholder.com/60x40/fab795/000000?text=+) | **#fab795** |
+| Preview                                                            | Color       | Preview                                                            | Color       |
+| ------------------------------------------------------------------ | ----------- | ------------------------------------------------------------------ | ----------- |
+| ![#09f7a0](https://via.placeholder.com/60x40/09f7a0/000000?text=+) | **#09f7a0** | ![#b877db](https://via.placeholder.com/60x40/b877db/000000?text=+) | **#b877db** |
+| ![#1c1e26](https://via.placeholder.com/60x40/1c1e26/000000?text=+) | **#1c1e26** | ![#d2d4de](https://via.placeholder.com/60x40/d2d4de/000000?text=+) | **#d2d4de** |
+| ![#1c1e26](https://via.placeholder.com/60x40/1c1e26/000000?text=+) | **#1c1e26** | ![#d5d8da](https://via.placeholder.com/60x40/d5d8da/000000?text=+) | **#d5d8da** |
+| ![#21bfc2](https://via.placeholder.com/60x40/21bfc2/000000?text=+) | **#21bfc2** | ![#e95678](https://via.placeholder.com/60x40/e95678/000000?text=+) | **#e95678** |
+| ![#25b0bc](https://via.placeholder.com/60x40/25b0bc/000000?text=+) | **#25b0bc** | ![#ec6a88](https://via.placeholder.com/60x40/ec6a88/000000?text=+) | **#ec6a88** |
+| ![#6bdfe6](https://via.placeholder.com/60x40/6bdfe6/000000?text=+) | **#6bdfe6** | ![#f09483](https://via.placeholder.com/60x40/f09483/000000?text=+) | **#f09483** |
+| ![#95c4ce](https://via.placeholder.com/60x40/95c4ce/000000?text=+) | **#95c4ce** | ![#fab38e](https://via.placeholder.com/60x40/fab38e/000000?text=+) | **#fab38e** |
+| ![#fab795](https://via.placeholder.com/60x40/fab795/000000?text=+) | **#fab795** |                                                                    |             |
