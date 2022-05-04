@@ -1,4 +1,4 @@
-<h1 aligh="center">Horizon</h1>
+<h1 align="center">Horizon</h1>
 
 <p align="center">Horizon is a beautifully warm dark colorscheme for Vim & inspired by <a href="https://marketplace.visualstudio.com/items?itemName=jolaleye.horizon-theme-vscode">Visual Studio Code Horizon Theme</a></p>
 
