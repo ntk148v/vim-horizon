@@ -221,7 +221,11 @@ if has('nvim')
   let g:terminal_color_13 = '#95c4ce'
   let g:terminal_color_14 = '#d2d4de'
 else
-  let g:terminal_ansi_colors = ['#1c1e26', '#eC6a88', '#09f7a0', '#fab795', '#25b0bc', '#f09483', '#e95678', '#1c1e26', '#d5d8da', '#6bdfe6', '#fab38e', '#21bfc2', '#b877db', '#95c4ce', '#d2d4de']
+  let g:terminal_ansi_colors = [
+    \ '#1c1e26', '#eC6a88', '#09f7a0', '#fab795', 
+    \ '#25b0bc', '#f09483', '#e95678', '#1c1e26', 
+    \ '#d5d8da', '#6bdfe6', '#fab38e', '#21bfc2', 
+    \ '#b877db', '#95c4ce', '#d2d4de', '#d5d8da']
 endif
 
 if exists("g:horizon_transparent_bg")
