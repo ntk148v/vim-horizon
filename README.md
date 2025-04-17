@@ -56,25 +56,34 @@ To apply lightline colorscheme without reloading:
 
 ## 3. Screenshots
 
-<div align="center">
-    <img src="https://raw.githubusercontent.com/ntk148v/vim-horizon/master/screenshots/screenshot1.png" alt="nightfox" style="border-radius:1%" />
-    <img src="https://raw.githubusercontent.com/ntk148v/vim-horizon/master/screenshots/screenshot2.png" alt="nightfox" style="border-radius:1%" />
-    <img src="https://raw.githubusercontent.com/ntk148v/vim-horizon/master/screenshots/screenshot3.png" alt="nightfox" style="border-radius:1%" />
-</div>
+|                                                                                                                                                |                                                                                                                                                |                                                                                                                                                |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="https://raw.githubusercontent.com/ntk148v/vim-horizon/master/screenshots/screenshot1.png" alt="nightfox" style="border-radius:1%" /> | <img src="https://raw.githubusercontent.com/ntk148v/vim-horizon/master/screenshots/screenshot2.png" alt="nightfox" style="border-radius:1%" /> | <img src="https://raw.githubusercontent.com/ntk148v/vim-horizon/master/screenshots/screenshot3.png" alt="nightfox" style="border-radius:1%" /> |
 
 ## 4. Compatibility
 
 - NeoVim/Vim
 - [True color support](https://github.com/termstandard/colors)
 
-> Note for MacOS: The default `terminal` does not support `true color`. Use either `Iterm2` or [another] terminal that supports true color.
+> [!Note]
+> For MacOS: The default `terminal` does not support `true color`. Use either `Iterm2` or [another] terminal that supports true color.
 
 ## 5. Color Palette
 
-| Preview                                                            | Color       | Preview                                                            | Color       | Preview                                                            | Color       |
-| ------------------------------------------------------------------ | ----------- | ------------------------------------------------------------------ | ----------- | ------------------------------------------------------------------ | ----------- |
-| ![#09f7a0](https://via.placeholder.com/60x40/09f7a0/000000.png?text=+) | **#09f7a0** | ![#b877db](https://via.placeholder.com/60x40/b877db/000000.png?text=+) | **#b877db** | ![#fab795](https://via.placeholder.com/60x40/fab795/000000.png?text=+) | **#fab795** |
-| ![#6bdfe6](https://via.placeholder.com/60x40/6bdfe6/000000.png?text=+) | **#6bdfe6** | ![#d2d4de](https://via.placeholder.com/60x40/d2d4de/000000.png?text=+) | **#d2d4de** | ![#fab38e](https://via.placeholder.com/60x40/fab38e/000000.png?text=+) | **#fab38e** |
-| ![#1c1e26](https://via.placeholder.com/60x40/1c1e26/000000.png?text=+) | **#1c1e26** | ![#d5d8da](https://via.placeholder.com/60x40/d5d8da/000000.png?text=+) | **#d5d8da** | ![#95c4ce](https://via.placeholder.com/60x40/95c4ce/000000.png?text=+) | **#95c4ce** |
-| ![#21bfc2](https://via.placeholder.com/60x40/21bfc2/000000.png?text=+) | **#21bfc2** | ![#e95678](https://via.placeholder.com/60x40/e95678/000000.png?text=+) | **#e95678** | ![#f09483](https://via.placeholder.com/60x40/f09483/000000.png?text=+) | **#f09483** |
-| ![#25b0bc](https://via.placeholder.com/60x40/25b0bc/000000.png?text=+) | **#25b0bc** | ![#ec6a88](https://via.placeholder.com/60x40/ec6a88/000000.png?text=+) | **#ec6a88** |                                                                    |
+
+| Preview                               | Color       |
+| ------------------------------------- | ----------- |
+| <input type="color" value="#09f7a0"/> | **#09f7a0** |
+| <input type="color" value="#b877db"/> | **#b877db** |
+| <input type="color" value="#fab795"/> | **#fab795** |
+| <input type="color" value="#6bdfe6"/> | **#6bdfe6** |
+| <input type="color" value="#d2d4de"/> | **#d2d4de** |
+| <input type="color" value="#fab38e"/> | **#fab38e** |
+| <input type="color" value="#1c1e26"/> | **#1c1e26** |
+| <input type="color" value="#d5d8da"/> | **#d5d8da** |
+| <input type="color" value="#21bfc2"/> | **#21bfc2** |
+| <input type="color" value="#e95678"/> | **#e95678** |
+| <input type="color" value="#f09483"/> | **#f09483** |
+| <input type="color" value="#25b0bc"/> | **#25b0bc** |
+| <input type="color" value="#ec6a88"/> | **#ec6a88** |
+
